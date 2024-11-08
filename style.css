@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Позиционируем элементы сверху */
+  background-color: #1e1e2f;
+  margin: 0;
+  height: 100vh;
+  color: #fff;
+}
+
+#log {
+  display: flex;
+  justify-content: center;  /* Горизонтальное выравнивание */
+  align-items: center;      /* Вертикальное выравнивание */
+  height: 50px;             /* Высота блока, чтобы текст не был слишком мелким */
+  width: 100%;              /* Ширина на всю доступную ширину */
+  text-align: center;       /* Выравнивание текста по центру */
+  margin-top: 20px;         /* Добавляем отступ сверху, чтобы текст был немного выше игры */
+}
+
+.tictac {
+  margin-top: 30px;         /* Добавляем отступ сверху, чтобы блок игры был ниже */
+  overflow: hidden;
+  width: 130px;
+  background-color: #333;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+button {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #444;
+  color: aquamarine;
+}
+
+button:hover {
+  background-color: #666;
+}
